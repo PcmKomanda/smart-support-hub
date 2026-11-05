@@ -17,7 +17,7 @@ tai pilno ciklo (angl. *End-to-End*) demonstracija.
 ## Kaip atlikti E2E testą
 
 1. Atidarykite „ChatGPT“ / „Google AI Studio“ arba paleiskite „Colab“ prototipą
-   (`notebooks/smart_customer_service_gemini.ipynb`).
+   (`1.1_smart_customer_service_gemini.ipynb`).
 2. Nukopijuokite `system_prompt.txt` turinį kaip sisteminę žinutę.
 3. Iš pasirinkto testavimo failo nukopijuokite KONTEKSTĄ ir KLIENTO
    UŽKLAUSĄ (X) į naudotojo žinutę.

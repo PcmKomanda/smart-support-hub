@@ -33,4 +33,4 @@ CSV stulpeliai:
 1. Paimkite `query` (X) iš `customer_support_test.csv` (arba parašykite naują užklausą).
 2. Paleiskite agentą su `prompts/system_prompt.txt` ir žinių baze.
 3. Sugeneruotą atsakymą palyginkite su `expected_answer` (y₂) — semantinis
-   panašumas vertinamas „Colab“ prototipe (`notebooks/` skyriuje „Vertinimas“).
+   panašumas vertinamas „Colab“ prototipe `1.1_smart_customer_service_gemini.ipynb` (skyriuje „Vertinimas“).
