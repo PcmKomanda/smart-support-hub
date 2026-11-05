@@ -1,0 +1,40 @@
+{
+  "documents": [
+    {
+      "document_id": "KB-001",
+      "title": "Užsakymo būsenos tikrinimas",
+      "category": "order_status",
+      "content": "Užsakymo būseną galite patikrinti internetinės parduotuvės skyriuje „Mano užsakymai“. Įvedus užsakymo numerį (formatas TS-XXXXXX) ir el. paštą, rodoma reali būsena: „Apmokėta“, „Ruošiama siųsti“, „Išsiųsta“, „Pristatyta“. Būsena atnaujinama kas 15 minučių. Jei užsakymo nepavyksta rasti praėjus daugiau nei 30 minučių po apmokėjimo, reikia kreiptis į klientų aptarnavimo skyrių ir pateikti apmokėjimo patvirtinimą."
+    },
+    {
+      "document_id": "KB-002",
+      "title": "Pristatymo terminai ir kainos",
+      "category": "delivery",
+      "content": "Pristatome per 1–3 darbo dienas Lietuvoje, 3–7 darbo dienas į kitas ES šalis. Standartinė kurjerio pristatymo kaina – 2,99 EUR, nemokamai – kai užsakymo suma viršija 50 EUR. „LP Express“ paštomatas – 1,99 EUR. Siuntos sekimo numeris išsiunčiamas el. paštu iškart po siuntos perdavimo kurjeriui. Šeštadieniais ir sekmadieniais siuntų nepristatome."
+    },
+    {
+      "document_id": "KB-003",
+      "title": "Prekės grąžinimo taisyklės",
+      "category": "returns",
+      "content": "Nenaudotas prekes galite grąžinti per 14 dienų nuo pristatymo dienos. Prekė turi būti originalioje pakuotėje su visais priedais. Grąžinimo formą rasite paskyros skyriuje „Grąžinimai“. Pinigai grąžinami per 5 darbo dienas nuo prekės gavimo sandėlyje. Asmeninės higienos prekės ir išpakuota programinė įranga negrąžinamos."
+    },
+    {
+      "document_id": "KB-004",
+      "title": "Apmokėjimo būdai",
+      "category": "payment",
+      "content": "Priimame šiuos apmokėjimo būdus: banko korteles („Visa“, „Mastercard“), „PayPal“, bankinį pavedimą, mokėjimą dalimis (iki 24 mėn., palūkanos nuo 0 % akcijų metu). Kortelės autorizacija gali užtrukti iki 15 minučių. Jei apmokėjimas nepavyko, patikrinkite, ar kortelėje aktyvuotas internetinių mokėjimų limitas. Sąskaitą faktūrą išrašome per 24 valandas po apmokėjimo."
+    },
+    {
+      "document_id": "KB-005",
+      "title": "Garantija ir remontas",
+      "category": "warranty",
+      "content": "Visiems gaminiams suteikiame 24 mėnesių garantiją, o akcijos metu kai kuriems – 36 mėnesių. Garantinis remontas atliekamas per 10 darbo dienų. Garantinis talonas yra pirkimo kvitas – atskiro talono nereikia. Gaminius, kurių svoris iki 30 kg, į remontą nemokamai atvežame per kurjerį. Garantija netaikoma mechaniniams pažeidimams ir drėgmės padarytai žalai."
+    },
+    {
+      "document_id": "KB-006",
+      "title": "Dažnai užduodami klausimai apie naudojimąsi",
+      "category": "product_usage",
+      "content": "Visų gaminių naudotojo vadovus rasite prekės puslapio skyriuje „Atsisiuntimai“. Belaidės ausinės susiejamos ilgai spaudžiant maitinimo mygtuką, kol ims mirksėti mėlyna lemputė. Išmaniojo valdiklio atstatymas: palaikykite paspaudę CONSTANT mygtuką 8 sekundes. Jei prietaisas neįsijungia, pirmiausia patikrinkite, ar adapteris atitinka rekomenduojamą galią (žr. etiketę)."
+    }
+  ]
+}

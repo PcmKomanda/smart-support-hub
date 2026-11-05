@@ -1,0 +1,18 @@
+Testavimo užklausa Nr. 2 (returns)
+
+Kontekstas (žinių bazės dokumentas KB-003):
+---
+Nenaudotas prekes galite grąžinti per 14 dienų nuo pristatymo dienos.
+Prekė turi būti originalioje pakuotėje su visais priedais. Grąžinimo formą
+rasite paskyros skyriuje „Grąžinimai“. Pinigai grąžinami per 5 darbo dienas
+nuo prekės gavimo sandėlyje. Asmeninės higienos prekės ir išpakuota
+programinė įranga negrąžinamos.
+---
+
+Kliento užklausa (X):
+Noriu grąžinti ausines, kurias nusipirkau prieš savaitę. Kaip tai padaryti?
+
+Laukiamas atsakymas (y):
+Prekę, nusipirktą prieš savaitę, galite grąžinti per 14 dienų nuo pristatymo —
+užpildykite formą paskyros skyriuje „Grąžinimai“; pinigai grąžinami per
+5 darbo dienas. (Šaltinis: KB-003)

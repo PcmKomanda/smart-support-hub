@@ -1,0 +1,56 @@
+@startuml sequence
+title Smart Customer Service & Knowledge Base System - End-to-End Sequence
+' Sekų diagrama: pilna užklausos eiga nuo kliento klausimo iki atsakymo,
+' įskaitant eskalacijos atvejį, kai žinių bazėje nerandama informacija.
+
+actor Customer as customer
+participant "ChatUI" as ui
+participant "IntentClassifier" as classifier
+participant "RAGRetriever" as retriever
+participant "KnowledgeBase" as kb
+participant "AnswerGenerator" as generator
+participant "LLMClient\n(Gemini API)" as llm
+participant "EscalationService" as escalation
+participant "AnalyticsLogger" as logger
+participant "Support Agent" as agent
+
+customer -> ui : ask(question)
+activate ui
+ui -> classifier : classify(question)
+activate classifier
+classifier --> ui : Intent(name, confidence)
+deactivate classifier
+ui -> retriever : retrieve(question)
+activate retriever
+retriever -> kb : search(question)
+activate kb
+kb --> retriever : List<KBDocument>
+deactivate kb
+retriever --> ui : List<KBDocument> (top-K)
+deactivate retriever
+
+alt KB documents found & confidence OK
+  ui -> generator : generateAnswer(question, docs)
+  activate generator
+  generator -> llm : generate(prompt with context)
+  activate llm
+  llm --> generator : answer text
+  deactivate llm
+  generator --> ui : Answer + source references
+  deactivate generator
+  ui --> customer : display answer
+else No relevant documents
+  ui -> escalation : createTicket(session)
+  activate escalation
+  escalation --> agent : notify new ticket
+  agent --> customer : human agent answers
+  escalation --> ui : ticketId
+  deactivate escalation
+end
+
+ui -> logger : logInteraction(session, intent, latency)
+activate logger
+logger --> ui : ok
+deactivate logger
+deactivate ui
+@enduml

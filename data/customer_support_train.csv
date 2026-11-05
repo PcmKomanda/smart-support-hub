@@ -1,0 +1,21 @@
+query,intent,expected_answer,source_doc_id
+"Kur galiu patikrinti savo užsakymo TS-102345 būseną?",order_status,"Užsakymo būseną rasite skyriuje „Mano užsakymai“ pateikę užsakymo numerį ir el. paštą; būsena atnaujinama kas 15 minučių.",KB-001
+"Kada bus pristatyta mano siunta į Kauną?",delivery,"Standartinis pristatymas Lietuvoje trunka 1–3 darbo dienas; sekimo numerį gausite el. paštu, kai siunta bus perduota kurjeriui.",KB-002
+"Noriu grąžinti ausines, kurias nusipirkau prieš savaitę. Kaip tai padaryti?",returns,"Prekę, nusipirktą prieš savaitę, galite grąžinti per 14 dienų nuo pristatymo — užpildykite formą paskyros skyriuje „Grąžinimai“; pinigai grąžinami per 5 darbo dienas.",KB-003
+"Ar galima atsiskaityti mokant dalimis?",payment,"Taip, mokėjimas dalimis iki 24 mėnesių yra priimamas, o akcijų metu palūkanos gali būti nuo 0 %.",KB-004
+"Kiek laiko galioja garantija ir ką daryti, jei gaminys sugedo?",warranty,"Garantija galioja 24 mėnesius; garantiniam remontui pakanka pirkimo kvito, o remontas atliekamas per 10 darbo dienų.",KB-005
+"Nepavyksta susieti belaidžių ausinių su telefonu, ką daryti?",product_usage,"Susiekite ausines ilgai paspaudę maitinimo mygtuką, kol ims mirksėti mėlyna lemputė; daugiau instrukcijų rasite naudotojo vadove.",KB-006
+"Ar siuntas pristatote savaitgaliais?",delivery,"Šeštadieniais ir sekmadieniais siuntų nepristatome.",KB-002
+"Mano apmokėjimas kortele nepavyko, bet pinigus nurašė. Ką daryti?",payment,"Kortelės autorizacija gali užtrukti iki 15 minučių; jei problema išlieka, patikrinkite internetinių mokėjimų limitą arba susisiekite pateikę apmokėjimo patvirtinimą.",KB-004
+"Kokia yra grąžinimo kaina?",returns,"Grąžinimas nemokamas, jei prekė grąžinama per 14 dienų pagal taisykles (originalioje pakuotėje, nenaudota).",KB-003
+"Kur rasti siuntos sekimo numerį?",delivery,"Sekimo numeris išsiunčiamas el. paštu iškart po siuntos perdavimo kurjeriui.",KB-002
+"Naujas išmanusis valdiklis neįsijungia.",product_usage,"Patikrinkite, ar adapteris atitinka rekomenduojamą galią; jei tai nepadeda, atlikite atstatymą palaikydami paspaudę CONSTANT mygtuką 8 sekundes.",KB-006
+"Ar reikia atskiro garantinio talono?",warranty,"Ne, garantinis talonas yra pirkimo kvitas.",KB-005
+"Užsakymo būsena vis dar „Apmokėta“ po dviejų dienų, ar tai normalu?",order_status,"Tai gali reikšti vėlavimą sandėlyje; jei būsena nesikeičia praėjus daugiau nei 30 min. po apmokėjimo, kreipkitės į klientų aptarnavimo skyrių su apmokėjimo patvirtinimu.",KB-001
+"Ar galima gauti sąskaitą faktūrą įmonės rekvizitais?",payment,"Sąskaitą faktūrą išrašome per 24 valandas po apmokėjimo; įmonės rekvizitus galite nurodyti pirkimo metu arba parašę mums.",KB-004
+"Ar galima grąžinti išpakuotą programinę įrangą?",returns,"Deja, išpakuota programinė įranga bei asmeninės higienos prekės negrąžinamos.",KB-003
+"Ar galite patys paimti sugedusį gaminį į remontą?",warranty,"Taip, gaminius iki 30 kg į remontą atvežame nemokamai per kurjerį.",KB-005
+"Kiek kainuoja pristatymas, jei perku už 30 eurų?",delivery,"Standartinis kurjerio pristatymas kainuoja 2,99 EUR; nemokamas pristatymas taikomas užsakymams nuo 50 EUR.",KB-002
+"Kaip sužinoti, ar mano užsakymas apmokėtas?",order_status,"Užsakymo būseną, įskaitant „Apmokėta“, patikrinkite skyriuje „Mano užsakymai“.",KB-001
+"Kur atsisiųsti naudotojo vadovą?",product_usage,"Visų gaminių naudotojo vadovai yra prekės puslapio skyriuje „Atsisiuntimai“.",KB-006
+"Kokia garantija taikoma akcijos metu?",warranty,"Įprastai garantija galioja 24 mėnesius, o akcijų metu kai kuriems gaminiams — 36 mėnesius.",KB-005

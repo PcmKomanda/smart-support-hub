@@ -1,0 +1,18 @@
+Testavimo užklausa Nr. 4 (escalation — kai žinių bazėje nėra atsakymo)
+
+Kontekstas (žinių bazės dokumentas KB-004):
+---
+Priimame šiuos apmokėjimo būdus: banko korteles („Visa“, „Mastercard“), „PayPal“,
+bankinį pavedimą, mokėjimą dalimis (iki 24 mėn., palūkanos nuo 0 %
+akcijų metu). Kortelės autorizacija gali užtrukti iki 15 minučių.
+---
+
+Kliento užklausa (X):
+Kiek kainuoja NATO garantinės gamybos klaviatūros remontas Vokietijoje?
+
+Laukiamas atsakymas (y):
+Šio klausimo informacijos neturiu, todėl persiunčiu Jūsų užklausą
+žmogaus operatoriui — netrukus su Jumis susisieksime. (Eskalacija)
+
+Pastaba: šis atvejis tikrina, ar agentas NEKURIA faktų iš konteksto ir
+ar tinkamai vykdo eskalaciją pagal taisyklę Nr. 3 (system_prompt.txt).

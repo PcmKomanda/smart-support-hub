@@ -1,0 +1,17 @@
+Testavimo užklausa Nr. 3 (delivery)
+
+Kontekstas (žinių bazės dokumentas KB-002):
+---
+Pristatome per 1–3 darbo dienas Lietuvoje, 3–7 darbo dienas į kitas ES šalis.
+Standartinė kurjerio pristatymo kaina – 2,99 EUR, nemokamai – kai užsakymo suma
+viršija 50 EUR. „LP Express“ paštomatas – 1,99 EUR. Siuntos sekimo numeris
+išsiunčiamas el. paštu iškart po siuntos perdavimo kurjeriui.
+Šeštadieniais ir sekmadieniais siuntų nepristatome.
+---
+
+Kliento užklausa (X):
+Ar siuntas pristatote savaitgaliais?
+
+Laukiamas atsakymas (y):
+Šeštadieniais ir sekmadieniais siuntų nepristatome; įprastai pristatome
+darbo dienomis per 1–3 dienas Lietuvoje. (Šaltinis: KB-002)

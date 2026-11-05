@@ -1,0 +1,31 @@
+@startuml activity
+title Smart Customer Service & Knowledge Base System - Request Processing Activity
+' Veiklos diagrama: užklausos apdorojimo eiga su sprendimų taškais.
+
+start
+:Customer submits question via ChatUI;
+:Validate and sanitize input;
+if (Intent classified with\nconfidence >= threshold?) then (yes)
+  :IntentClassifier returns Intent;
+else (no)
+  :Fall back to general FAQ intent;
+endif
+:RAGRetriever searches KnowledgeBase (top-K);
+if (Relevant documents found?) then (yes)
+  :AnswerGenerator builds prompt\n(question + retrieved context);
+  :LLMClient calls Gemini API;
+  :Post-check answer (grounded in context?);
+  if (Answer passes quality check?) then (yes)
+    :Return answer with source references;
+  else (no)
+    :EscalationService creates ticket;
+    :Notify human Support Agent;
+  endif
+else (no)
+  :EscalationService creates ticket;
+  :Notify human Support Agent;
+endif
+:AnalyticsLogger logs interaction\n(intent, latency, outcome);
+:Display result to Customer;
+stop
+@enduml

@@ -1,0 +1,17 @@
+Testavimo užklausa Nr. 1 (order_status)
+
+Kontekstas (žinių bazės dokumentas KB-001):
+---
+Užsakymo būseną galite patikrinti internetinės parduotuvės skyriuje „Mano užsakymai“.
+Įvedus užsakymo numerį (formatas TS-XXXXXX) ir el. paštą, rodoma reali būsena:
+„Apmokėta“, „Ruošiama siųsti“, „Išsiųsta“, „Pristatyta“. Būsena atnaujinama
+kas 15 minučių. Jei užsakymo nepavyksta rasti praėjus daugiau nei 30 minučių po
+apmokėjimo, reikia kreiptis į klientų aptarnavimo skyrių ir pateikti apmokėjimo patvirtinimą.
+---
+
+Kliento užklausa (X):
+Kur galiu patikrinti savo užsakymo TS-102345 būseną?
+
+Laukiamas atsakymas (y):
+Užsakymo būseną rasite skyriuje „Mano užsakymai“ pateikę užsakymo numerį
+ir el. paštą; būsena atnaujinama kas 15 minučių. (Šaltinis: KB-001)

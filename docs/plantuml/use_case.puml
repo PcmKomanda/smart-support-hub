@@ -1,0 +1,35 @@
+@startuml use_case
+title Smart Customer Service & Knowledge Base System - Use Case Diagram
+' Naudojimo atvejų diagrama: rodo aktorius ir pagrindines sistemos funkcijas.
+
+left to right direction
+
+actor "Customer" as customer
+actor "Support Agent" as agent
+actor "Administrator" as admin
+
+rectangle "Smart Customer Service &\nKnowledge Base System" as system {
+  usecase "Ask a question\nvia chat" as UC1
+  usecase "Receive AI-generated\nanswer" as UC2
+  usecase "Escalate to human agent" as UC3
+  usecase "Handle escalated\nticket" as UC4
+  usecase "Manage knowledge base\n(CRUD documents)" as UC5
+  usecase "Review conversation\nhistory & analytics" as UC6
+  usecase "Classify intent" as UC7
+  usecase "Retrieve knowledge\nbase documents (RAG)" as UC8
+  usecase "Generate answer\nvia Gemini API" as UC9
+}
+
+customer --> UC1
+customer --> UC2
+agent --> UC4
+agent --> UC6
+admin --> UC5
+
+UC1 ..> UC7 : <<include>>
+UC7 ..> UC8 : <<include>>
+UC8 ..> UC9 : <<include>>
+UC9 ..> UC2 : <<include>>
+UC3 ..> UC4 : <<extend>>
+UC1 ..> UC3 : <<extend>>\n(when AI cannot answer)
+@enduml

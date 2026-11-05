@@ -1,0 +1,91 @@
+@startuml class
+title Smart Customer Service & Knowledge Base System - Class Diagram
+' Klasių diagrama: pagrindiniai dalykinės srities objektai ir DI agento komponentai.
+
+class ChatSession {
+  +sessionId : String
+  +customerId : String
+  +startedAt : DateTime
+  +status : SessionStatus
+  +addMessage(m : Message) : void
+  +getHistory() : List<Message>
+}
+
+class Message {
+  +messageId : String
+  +sessionId : String
+  +role : MessageRole
+  +content : String
+  +createdAt : DateTime
+}
+
+class IntentClassifier {
+  +classify(text : String) : Intent
+}
+
+class Intent {
+  +intentId : String
+  +name : IntentName
+  +confidence : float
+}
+
+class RAGRetriever {
+  +topK : int
+  +retrieve(query : String) : List<KBDocument>
+}
+
+class KnowledgeBase {
+  +search(query : String) : List<KBDocument>
+  +addDocument(doc : KBDocument) : void
+  +updateDocument(id : String, doc : KBDocument) : void
+  +deleteDocument(id : String) : void
+}
+
+class KBDocument {
+  +documentId : String
+  +title : String
+  +content : String
+  +category : String
+  +embedding : float[]
+}
+
+class LLMClient {
+  -apiKey : String
+  +model : String
+  +generate(prompt : String, context : List<KBDocument>) : String
+}
+
+class AnswerGenerator {
+  +buildPrompt(query : String, context : List<KBDocument>) : String
+  +generateAnswer(session : ChatSession, docs : List<KBDocument>) : String
+}
+
+class EscalationService {
+  +shouldEscalate(intent : Intent, docs : List<KBDocument>) : boolean
+  +createTicket(session : ChatSession) : Ticket
+}
+
+class Ticket {
+  +ticketId : String
+  +sessionId : String
+  +assignedAgentId : String
+  +priority : Priority
+}
+
+class AnalyticsLogger {
+  +logInteraction(session : ChatSession, intent : Intent, latencyMs : int) : void
+  +exportReport() : Report
+}
+
+ChatSession "1" *-- "0..*" Message : contains
+ChatSession ..> AnswerGenerator : uses
+IntentClassifier ..> Intent : produces
+RAGRetriever ..> KnowledgeBase : queries
+RAGRetriever ..> KBDocument : returns
+AnswerGenerator ..> LLMClient : calls
+AnswerGenerator ..> RAGRetriever : uses
+AnswerGenerator ..> EscalationService : checks
+EscalationService ..> Ticket : creates
+AnalyticsLogger ..> ChatSession : observes
+KnowledgeBase "1" o-- "1..*" KBDocument : stores
+@enduml

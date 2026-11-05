@@ -1,0 +1,37 @@
+@startuml component
+title Smart Customer Service & Knowledge Base System - Component Diagram
+' Komponentų diagrama: sistemos sluoksniai ir išorinės paslaugos.
+
+package "UI Layer" {
+  [ChatUI (web chat widget)] as chatui
+}
+
+package "AI Agent Layer" {
+  [IntentClassifier] as classifier
+  [RAGRetriever] as retriever
+  [AnswerGenerator] as generator
+  [EscalationService] as escalations
+}
+
+package "Data Layer" {
+  [KnowledgeBase + Vector Index] as kb
+  [(Conversation History DB)] as history
+  [Analytics Store] as analytics
+}
+
+package "External Services" {
+  [Gemini API] as gemini
+}
+
+chatui --> classifier : question
+chatui --> retriever : query
+classifier --> generator : intent
+retriever --> kb : search
+retriever --> generator : context documents
+generator --> gemini : prompt / completion
+generator --> chatui : answer
+generator --> escalations : unanswerable request
+escalations --> history : create ticket
+chatui --> history : persist messages
+generator --> analytics : log interaction
+@enduml

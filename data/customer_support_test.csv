@@ -1,0 +1,7 @@
+query,intent,expected_answer,source_doc_id
+"Kokiomis dienomis pristatote užsakymus į Vilnių?",delivery,"Pristatome per 1–3 darbo dienas Lietuvoje; šeštadieniais ir sekmadieniais siuntų nepristatome.",KB-002
+"Norėčiau grąžinti prekę po 10 dienų nuo pirkimo, ar įmanoma?",returns,"Taip, prekę galima grąžinti per 14 dienų nuo pristatymo, jei ji yra originalioje pakuotėje ir nenaudota.",KB-003
+"Nematau savo užsakymo istorijos paskyroje, ką daryti?",order_status,"Patikrinkite, ar naudojate tą patį el. paštą, kuriuo pirkote; jei užsakymo nėra praėjus daugiau nei 30 min. po apmokėjimo, kreipkitės su apmokėjimo patvirtinimu.",KB-001
+"Ar parduotuvė priima PayPal mokėjimus?",payment,"Taip, „PayPal“ yra vienas iš priimamų apmokėjimo būdų.",KB-004
+"Ar už 25 eurus pirktas gaminys turi garantiją?",warranty,"Taip, visiems gaminiams taikoma 24 mėnesių garantija, atskiro talono nereikia — užtenka pirkimo kvito.",KB-005
+"Kur rasti ausinių susiejimo instrukciją?",product_usage,"Naudotojo vadovai yra prekės puslapio skyriuje „Atsisiuntimai“; ausinės susiejamos ilgai spaudžiant maitinimo mygtuką, kol ims mirksėti mėlyna lemputė.",KB-006

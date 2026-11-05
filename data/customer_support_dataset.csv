@@ -1,0 +1,253 @@
+query,intent
+Kur mano užsakymas TS-102345?,order_status
+Kur mano užsakymas TS-201111?,order_status
+Kur mano užsakymas TS-314560?,order_status
+Kur mano užsakymas TS-456789?,order_status
+Kur mano užsakymas TS-511235?,order_status
+Kur mano užsakymas TS-623456?,order_status
+Kokia yra užsakymo TS-102345 būsena?,order_status
+Kokia yra užsakymo TS-201111 būsena?,order_status
+Kokia yra užsakymo TS-314560 būsena?,order_status
+Kokia yra užsakymo TS-456789 būsena?,order_status
+Kokia yra užsakymo TS-511235 būsena?,order_status
+Kokia yra užsakymo TS-623456 būsena?,order_status
+"Nematau užsakymo TS-102345 paskyroje, ką daryti?",order_status
+"Nematau užsakymo TS-201111 paskyroje, ką daryti?",order_status
+"Nematau užsakymo TS-314560 paskyroje, ką daryti?",order_status
+"Nematau užsakymo TS-456789 paskyroje, ką daryti?",order_status
+"Nematau užsakymo TS-511235 paskyroje, ką daryti?",order_status
+"Nematau užsakymo TS-623456 paskyroje, ką daryti?",order_status
+Kaip sužinoti mano užsakymo TS-102345 statusą?,order_status
+Kaip sužinoti mano užsakymo TS-201111 statusą?,order_status
+Kaip sužinoti mano užsakymo TS-314560 statusą?,order_status
+Kaip sužinoti mano užsakymo TS-456789 statusą?,order_status
+Kaip sužinoti mano užsakymo TS-511235 statusą?,order_status
+Kaip sužinoti mano užsakymo TS-623456 statusą?,order_status
+Ar užsakymas TS-102345 jau išsiųstas?,order_status
+Ar užsakymas TS-201111 jau išsiųstas?,order_status
+Ar užsakymas TS-314560 jau išsiųstas?,order_status
+Ar užsakymas TS-456789 jau išsiųstas?,order_status
+Ar užsakymas TS-511235 jau išsiųstas?,order_status
+Ar užsakymas TS-623456 jau išsiųstas?,order_status
+"Mano užsakymo TS-102345 statusas vis dar „Apmokėta“, ar tai normalu?",order_status
+"Mano užsakymo TS-201111 statusas vis dar „Apmokėta“, ar tai normalu?",order_status
+"Mano užsakymo TS-314560 statusas vis dar „Apmokėta“, ar tai normalu?",order_status
+"Mano užsakymo TS-456789 statusas vis dar „Apmokėta“, ar tai normalu?",order_status
+"Mano užsakymo TS-511235 statusas vis dar „Apmokėta“, ar tai normalu?",order_status
+"Mano užsakymo TS-623456 statusas vis dar „Apmokėta“, ar tai normalu?",order_status
+Kada bus matoma užsakymo TS-102345 sekimo informacija?,order_status
+Kada bus matoma užsakymo TS-201111 sekimo informacija?,order_status
+Kada bus matoma užsakymo TS-314560 sekimo informacija?,order_status
+Kada bus matoma užsakymo TS-456789 sekimo informacija?,order_status
+Kada bus matoma užsakymo TS-511235 sekimo informacija?,order_status
+Kada bus matoma užsakymo TS-623456 sekimo informacija?,order_status
+Kiek trunka pristatymas į Vilnių?,delivery
+Kiek trunka pristatymas į Kauną?,delivery
+Kiek trunka pristatymas į Klaipėdą?,delivery
+Kiek trunka pristatymas į Šiaulius?,delivery
+Kiek trunka pristatymas į Panevėžį?,delivery
+Kiek trunka pristatymas į Alytų?,delivery
+Ar pristatote siuntas į Vilnių savaitgaliais?,delivery
+Ar pristatote siuntas į Kauną savaitgaliais?,delivery
+Ar pristatote siuntas į Klaipėdą savaitgaliais?,delivery
+Ar pristatote siuntas į Šiaulius savaitgaliais?,delivery
+Ar pristatote siuntas į Panevėžį savaitgaliais?,delivery
+Ar pristatote siuntas į Alytų savaitgaliais?,delivery
+Kokia pristatymo į Vilnių kaina?,delivery
+Kokia pristatymo į Kauną kaina?,delivery
+Kokia pristatymo į Klaipėdą kaina?,delivery
+Kokia pristatymo į Šiaulius kaina?,delivery
+Kokia pristatymo į Panevėžį kaina?,delivery
+Kokia pristatymo į Alytų kaina?,delivery
+Kada mano siunta pasieks Vilnių?,delivery
+Kada mano siunta pasieks Kauną?,delivery
+Kada mano siunta pasieks Klaipėdą?,delivery
+Kada mano siunta pasieks Šiaulius?,delivery
+Kada mano siunta pasieks Panevėžį?,delivery
+Kada mano siunta pasieks Alytų?,delivery
+Ar taikomas nemokamas pristatymas perkant už 30 eurų?,delivery
+Ar taikomas nemokamas pristatymas perkant už 45 eurų?,delivery
+Ar taikomas nemokamas pristatymas perkant už 60 eurų?,delivery
+Ar taikomas nemokamas pristatymas perkant už 75 eurų?,delivery
+Ar taikomas nemokamas pristatymas perkant už 90 eurų?,delivery
+Ar taikomas nemokamas pristatymas perkant už 120 eurų?,delivery
+Kur rasti siuntos į Vilnių sekimo numerį?,delivery
+Kur rasti siuntos į Kauną sekimo numerį?,delivery
+Kur rasti siuntos į Klaipėdą sekimo numerį?,delivery
+Kur rasti siuntos į Šiaulius sekimo numerį?,delivery
+Kur rasti siuntos į Panevėžį sekimo numerį?,delivery
+Kur rasti siuntos į Alytų sekimo numerį?,delivery
+Ar galiu atsiimti siuntą į Vilnių paštomate?,delivery
+Ar galiu atsiimti siuntą į Kauną paštomate?,delivery
+Ar galiu atsiimti siuntą į Klaipėdą paštomate?,delivery
+Ar galiu atsiimti siuntą į Šiaulius paštomate?,delivery
+Ar galiu atsiimti siuntą į Panevėžį paštomate?,delivery
+Ar galiu atsiimti siuntą į Alytų paštomate?,delivery
+"Noriu grąžinti išmanųjį telefoną, kaip tai padaryti?",returns
+"Noriu grąžinti belaides ausines, kaip tai padaryti?",returns
+"Noriu grąžinti išorinę bateriją, kaip tai padaryti?",returns
+"Noriu grąžinti elektroninę skaityklę, kaip tai padaryti?",returns
+"Noriu grąžinti žaidimų pultelį, kaip tai padaryti?",returns
+"Noriu grąžinti internetinę kamerą, kaip tai padaryti?",returns
+Ar galiu grąžinti prekę po 3 dienų?,returns
+Ar galiu grąžinti prekę po 7 dienų?,returns
+Ar galiu grąžinti prekę po 10 dienų?,returns
+Ar galiu grąžinti prekę po 13 dienų?,returns
+Ar galiu grąžinti prekę po 20 dienų?,returns
+Ar galiu grąžinti prekę po 30 dienų?,returns
+Kiek kainuoja grąžinti išmanųjį telefoną?,returns
+Kiek kainuoja grąžinti belaides ausines?,returns
+Kiek kainuoja grąžinti išorinę bateriją?,returns
+Kiek kainuoja grąžinti elektroninę skaityklę?,returns
+Kiek kainuoja grąžinti žaidimų pultelį?,returns
+Kiek kainuoja grąžinti internetinę kamerą?,returns
+Kada atgausiu pinigus grąžinęs išmanųjį telefoną?,returns
+Kada atgausiu pinigus grąžinęs belaides ausines?,returns
+Kada atgausiu pinigus grąžinęs išorinę bateriją?,returns
+Kada atgausiu pinigus grąžinęs elektroninę skaityklę?,returns
+Kada atgausiu pinigus grąžinęs žaidimų pultelį?,returns
+Kada atgausiu pinigus grąžinęs internetinę kamerą?,returns
+Ar galima grąžinti išmanųjį telefoną originalioje pakuotėje?,returns
+Ar galima grąžinti belaides ausines originalioje pakuotėje?,returns
+Ar galima grąžinti išorinę bateriją originalioje pakuotėje?,returns
+Ar galima grąžinti elektroninę skaityklę originalioje pakuotėje?,returns
+Ar galima grąžinti žaidimų pultelį originalioje pakuotėje?,returns
+Ar galima grąžinti internetinę kamerą originalioje pakuotėje?,returns
+Kur rasiu grąžinimo formą norėdamas grąžinti išmanųjį telefoną?,returns
+Kur rasiu grąžinimo formą norėdamas grąžinti belaides ausines?,returns
+Kur rasiu grąžinimo formą norėdamas grąžinti išorinę bateriją?,returns
+Kur rasiu grąžinimo formą norėdamas grąžinti elektroninę skaityklę?,returns
+Kur rasiu grąžinimo formą norėdamas grąžinti žaidimų pultelį?,returns
+Kur rasiu grąžinimo formą norėdamas grąžinti internetinę kamerą?,returns
+"Ar galima grąžinti išmanųjį telefoną, jei pakuotė jau buvo atidaryta?",returns
+"Ar galima grąžinti belaides ausines, jei pakuotė jau buvo atidaryta?",returns
+"Ar galima grąžinti išorinę bateriją, jei pakuotė jau buvo atidaryta?",returns
+"Ar galima grąžinti elektroninę skaityklę, jei pakuotė jau buvo atidaryta?",returns
+"Ar galima grąžinti žaidimų pultelį, jei pakuotė jau buvo atidaryta?",returns
+"Ar galima grąžinti internetinę kamerą, jei pakuotė jau buvo atidaryta?",returns
+Ar priimate PayPal?,payment
+Ar priimate Visa kortelę?,payment
+Ar priimate Mastercard kortelę?,payment
+Ar priimate bankinį pavedimą?,payment
+Ar priimate Google Pay?,payment
+Ar priimate Apple Pay?,payment
+Kiek laiko trunka mokėjimo autorizacija pasirinkus PayPal?,payment
+Kiek laiko trunka mokėjimo autorizacija pasirinkus Visa kortelę?,payment
+Kiek laiko trunka mokėjimo autorizacija pasirinkus Mastercard kortelę?,payment
+Kiek laiko trunka mokėjimo autorizacija pasirinkus bankinį pavedimą?,payment
+Kiek laiko trunka mokėjimo autorizacija pasirinkus Google Pay?,payment
+Kiek laiko trunka mokėjimo autorizacija pasirinkus Apple Pay?,payment
+"Nepavyko apmokėti užsakymo pasirinkus PayPal, ką daryti?",payment
+"Nepavyko apmokėti užsakymo pasirinkus Visa kortelę, ką daryti?",payment
+"Nepavyko apmokėti užsakymo pasirinkus Mastercard kortelę, ką daryti?",payment
+"Nepavyko apmokėti užsakymo pasirinkus bankinį pavedimą, ką daryti?",payment
+"Nepavyko apmokėti užsakymo pasirinkus Google Pay, ką daryti?",payment
+"Nepavyko apmokėti užsakymo pasirinkus Apple Pay, ką daryti?",payment
+Ar galima mokėti dalimis pasirinkus PayPal?,payment
+Ar galima mokėti dalimis pasirinkus Visa kortelę?,payment
+Ar galima mokėti dalimis pasirinkus Mastercard kortelę?,payment
+Ar galima mokėti dalimis pasirinkus bankinį pavedimą?,payment
+Ar galima mokėti dalimis pasirinkus Google Pay?,payment
+Ar galima mokėti dalimis pasirinkus Apple Pay?,payment
+Kada gausiu sąskaitą faktūrą apmokėjus per PayPal?,payment
+Kada gausiu sąskaitą faktūrą apmokėjus per Visa kortelę?,payment
+Kada gausiu sąskaitą faktūrą apmokėjus per Mastercard kortelę?,payment
+Kada gausiu sąskaitą faktūrą apmokėjus per bankinį pavedimą?,payment
+Kada gausiu sąskaitą faktūrą apmokėjus per Google Pay?,payment
+Kada gausiu sąskaitą faktūrą apmokėjus per Apple Pay?,payment
+Ar palaikote PayPal internetinėje parduotuvėje?,payment
+Ar palaikote Visa kortelę internetinėje parduotuvėje?,payment
+Ar palaikote Mastercard kortelę internetinėje parduotuvėje?,payment
+Ar palaikote bankinį pavedimą internetinėje parduotuvėje?,payment
+Ar palaikote Google Pay internetinėje parduotuvėje?,payment
+Ar palaikote Apple Pay internetinėje parduotuvėje?,payment
+"Ką daryti, jei mokant per PayPal nurašė pinigus, bet užsakymas neapmokėtas?",payment
+"Ką daryti, jei mokant per Visa kortelę nurašė pinigus, bet užsakymas neapmokėtas?",payment
+"Ką daryti, jei mokant per Mastercard kortelę nurašė pinigus, bet užsakymas neapmokėtas?",payment
+"Ką daryti, jei mokant per bankinį pavedimą nurašė pinigus, bet užsakymas neapmokėtas?",payment
+"Ką daryti, jei mokant per Google Pay nurašė pinigus, bet užsakymas neapmokėtas?",payment
+"Ką daryti, jei mokant per Apple Pay nurašė pinigus, bet užsakymas neapmokėtas?",payment
+Kiek laiko galioja garantija įsigijus išmanųjį telefoną?,warranty
+Kiek laiko galioja garantija įsigijus belaides ausines?,warranty
+Kiek laiko galioja garantija įsigijus išorinę bateriją?,warranty
+Kiek laiko galioja garantija įsigijus elektroninę skaityklę?,warranty
+Kiek laiko galioja garantija įsigijus žaidimų pultelį?,warranty
+Kiek laiko galioja garantija įsigijus internetinę kamerą?,warranty
+Ar nemokamai suremontuosite išmanųjį telefoną pagal garantiją?,warranty
+Ar nemokamai suremontuosite belaides ausines pagal garantiją?,warranty
+Ar nemokamai suremontuosite išorinę bateriją pagal garantiją?,warranty
+Ar nemokamai suremontuosite elektroninę skaityklę pagal garantiją?,warranty
+Ar nemokamai suremontuosite žaidimų pultelį pagal garantiją?,warranty
+Ar nemokamai suremontuosite internetinę kamerą pagal garantiją?,warranty
+"Ką daryti, jei gaminys sugedo po 3 dienų naudojimo?",warranty
+"Ką daryti, jei gaminys sugedo po 7 dienų naudojimo?",warranty
+"Ką daryti, jei gaminys sugedo po 10 dienų naudojimo?",warranty
+"Ką daryti, jei gaminys sugedo po 13 dienų naudojimo?",warranty
+"Ką daryti, jei gaminys sugedo po 20 dienų naudojimo?",warranty
+"Ką daryti, jei gaminys sugedo po 30 dienų naudojimo?",warranty
+Ar reikia atskiro talono pateikiant išmanųjį telefoną garantiniam remontui?,warranty
+Ar reikia atskiro talono pateikiant belaides ausines garantiniam remontui?,warranty
+Ar reikia atskiro talono pateikiant išorinę bateriją garantiniam remontui?,warranty
+Ar reikia atskiro talono pateikiant elektroninę skaityklę garantiniam remontui?,warranty
+Ar reikia atskiro talono pateikiant žaidimų pultelį garantiniam remontui?,warranty
+Ar reikia atskiro talono pateikiant internetinę kamerą garantiniam remontui?,warranty
+Kiek trunka garantinis remontas pateikus išmanųjį telefoną?,warranty
+Kiek trunka garantinis remontas pateikus belaides ausines?,warranty
+Kiek trunka garantinis remontas pateikus išorinę bateriją?,warranty
+Kiek trunka garantinis remontas pateikus elektroninę skaityklę?,warranty
+Kiek trunka garantinis remontas pateikus žaidimų pultelį?,warranty
+Kiek trunka garantinis remontas pateikus internetinę kamerą?,warranty
+"Ar garantija galioja, jei netyčia pažeidžiau išmanųjį telefoną?",warranty
+"Ar garantija galioja, jei netyčia pažeidžiau belaides ausines?",warranty
+"Ar garantija galioja, jei netyčia pažeidžiau išorinę bateriją?",warranty
+"Ar garantija galioja, jei netyčia pažeidžiau elektroninę skaityklę?",warranty
+"Ar garantija galioja, jei netyčia pažeidžiau žaidimų pultelį?",warranty
+"Ar garantija galioja, jei netyčia pažeidžiau internetinę kamerą?",warranty
+Ar atvežate išmanųjį telefoną į remontą nemokamai?,warranty
+Ar atvežate belaides ausines į remontą nemokamai?,warranty
+Ar atvežate išorinę bateriją į remontą nemokamai?,warranty
+Ar atvežate elektroninę skaityklę į remontą nemokamai?,warranty
+Ar atvežate žaidimų pultelį į remontą nemokamai?,warranty
+Ar atvežate internetinę kamerą į remontą nemokamai?,warranty
+Kaip susieti išmanųjį telefoną su telefonu?,product_usage
+Kaip susieti belaides ausines su telefonu?,product_usage
+Kaip susieti išorinę bateriją su telefonu?,product_usage
+Kaip susieti elektroninę skaityklę su telefonu?,product_usage
+Kaip susieti žaidimų pultelį su telefonu?,product_usage
+Kaip susieti internetinę kamerą su telefonu?,product_usage
+Kur rasti naudotojo vadovą įsigijus išmanųjį telefoną?,product_usage
+Kur rasti naudotojo vadovą įsigijus belaides ausines?,product_usage
+Kur rasti naudotojo vadovą įsigijus išorinę bateriją?,product_usage
+Kur rasti naudotojo vadovą įsigijus elektroninę skaityklę?,product_usage
+Kur rasti naudotojo vadovą įsigijus žaidimų pultelį?,product_usage
+Kur rasti naudotojo vadovą įsigijus internetinę kamerą?,product_usage
+"Nusipirkau išmanųjį telefoną, bet prietaisas neįsijungia, ką daryti?",product_usage
+"Nusipirkau belaides ausines, bet prietaisas neįsijungia, ką daryti?",product_usage
+"Nusipirkau išorinę bateriją, bet prietaisas neįsijungia, ką daryti?",product_usage
+"Nusipirkau elektroninę skaityklę, bet prietaisas neįsijungia, ką daryti?",product_usage
+"Nusipirkau žaidimų pultelį, bet prietaisas neįsijungia, ką daryti?",product_usage
+"Nusipirkau internetinę kamerą, bet prietaisas neįsijungia, ką daryti?",product_usage
+Kaip atstatyti gamyklinius nustatymus naudojant išmanųjį telefoną?,product_usage
+Kaip atstatyti gamyklinius nustatymus naudojant belaides ausines?,product_usage
+Kaip atstatyti gamyklinius nustatymus naudojant išorinę bateriją?,product_usage
+Kaip atstatyti gamyklinius nustatymus naudojant elektroninę skaityklę?,product_usage
+Kaip atstatyti gamyklinius nustatymus naudojant žaidimų pultelį?,product_usage
+Kaip atstatyti gamyklinius nustatymus naudojant internetinę kamerą?,product_usage
+Ar galima gauti naudotojo vadovą lietuvių kalba įsigijus išmanųjį telefoną?,product_usage
+Ar galima gauti naudotojo vadovą lietuvių kalba įsigijus belaides ausines?,product_usage
+Ar galima gauti naudotojo vadovą lietuvių kalba įsigijus išorinę bateriją?,product_usage
+Ar galima gauti naudotojo vadovą lietuvių kalba įsigijus elektroninę skaityklę?,product_usage
+Ar galima gauti naudotojo vadovą lietuvių kalba įsigijus žaidimų pultelį?,product_usage
+Ar galima gauti naudotojo vadovą lietuvių kalba įsigijus internetinę kamerą?,product_usage
+Kaip tinkamai prijungti išmanųjį telefoną prie kompiuterio?,product_usage
+Kaip tinkamai prijungti belaides ausines prie kompiuterio?,product_usage
+Kaip tinkamai prijungti išorinę bateriją prie kompiuterio?,product_usage
+Kaip tinkamai prijungti elektroninę skaityklę prie kompiuterio?,product_usage
+Kaip tinkamai prijungti žaidimų pultelį prie kompiuterio?,product_usage
+Kaip tinkamai prijungti internetinę kamerą prie kompiuterio?,product_usage
+Kiek laiko reikia krauti išmanųjį telefoną?,product_usage
+Kiek laiko reikia krauti belaides ausines?,product_usage
+Kiek laiko reikia krauti išorinę bateriją?,product_usage
+Kiek laiko reikia krauti elektroninę skaityklę?,product_usage
+Kiek laiko reikia krauti žaidimų pultelį?,product_usage
+Kiek laiko reikia krauti internetinę kamerą?,product_usage
