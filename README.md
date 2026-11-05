@@ -18,21 +18,21 @@ Kliento užklausa (X) → Ketinimo klasifikavimas → RAG paieška žinių bazė
 
 ## Repozitorijos struktūra
 
-| Vieta                                           | Užduoties dalis | Turinys                                                                                                    |
-| ----------------------------------------------- | --------------- | ---------------------------------------------------------------------------------------------------------- |
-| `docs/chatgpt_prompt.md`                        | 1.1             | Užklausa (angl. _prompt_) „ChatGPT“ sistemai: sistemos sukūrimas per „PlantUML“, perdarymas į „Mermaid“    |
-| `docs/plantuml/`                                | 1.1             | 5 „PlantUML“ diagramos: naudojimo atvejų, klasių, sekų, veiklos, komponentų                                |
-| `docs/mermaid/diagrams.md`                      | 1.1             | Tos pačios diagramos „Mermaid“ formatu (atvaizduojamos „GitHub“ platformoje)                               |
-| `data/`                                         | 1.2.1           | (X, y) poros: 20 mokymo + 6 testavimo pavyzdžių + žinių bazė (6 dokumentai)                                |
-| `prompts/`                                      | 1.2.1           | Sistemos instrukcija + 4 testavimo užklausos (3 atsakymo + 1 eskalacijos atvejis)                          |
-| `notebooks/smart_customer_service_gemini.ipynb` | 1.2.2           | „Colab“ prototipas su „Gemini API“ (projekto apžvalga, paaiškintas kodas, E2E procesas, vizualizacijos)    |
-| `1.3_tensorflow/`                               | 1.3             | „TensorFlow“ Dense/MLP ir TF-DF („RandomForest“ + GBT) ketinimų klasifikatoriai                            |
-| `1.4_cnn/`                                      | 1.4             | CNN — užklausos piešiamos kaip vaizdai, klasifikavimas pagal vaizdą                                        |
-| `1.5_transfer_learning/`                        | 1.5             | „MobileNetV2“ požymių išskyrimas (angl. _feature extraction_) ir tikslusis derinimas (angl. _fine-tuning_) |
+| Vieta                                                 | Užduoties dalis | Turinys                                                                                                    |
+| ----------------------------------------------------- | --------------- | ---------------------------------------------------------------------------------------------------------- |
+| `docs/prompt.md`                                      | 1.1             | Užklausa (angl. _prompt_) „ChatGPT“ sistemai: sistemos sukūrimas per „PlantUML“, perdarymas į „Mermaid“    |
+| `docs/plantuml/`                                      | 1.1             | 5 „PlantUML“ diagramos: naudojimo atvejų, klasių, sekų, veiklos, komponentų                                |
+| `docs/mermaid/diagrams.md`                            | 1.1             | Tos pačios diagramos „Mermaid“ formatu (atvaizduojamos „GitHub“ platformoje)                               |
+| `data/`                                               | 1.2.1           | (X, y) poros: 20 mokymo + 6 testavimo pavyzdžių + žinių bazė (6 dokumentai)                                |
+| `prompts/`                                            | 1.2.1           | Sistemos instrukcija + 4 testavimo užklausos (3 atsakymo + 1 eskalacijos atvejis)                          |
+| `notebooks/1_1_2_smart_customer_service_gemini.ipynb` | 1.2.2           | „Colab“ prototipas su „Gemini API“ (projekto apžvalga, paaiškintas kodas, E2E procesas, vizualizacijos)    |
+| `notebooks/1.3_tensorflow/`                           | 1.3             | „TensorFlow“ Dense/MLP ir TF-DF („RandomForest“ + GBT) ketinimų klasifikatoriai                            |
+| `notebooks/1.4_cnn/`                                  | 1.4             | CNN — užklausos piešiamos kaip vaizdai, klasifikavimas pagal vaizdą                                        |
+| `notebooks/1.5_transfer_learning/`                    | 1.5             | „MobileNetV2“ požymių išskyrimas (angl. _feature extraction_) ir tikslusis derinimas (angl. _fine-tuning_) |
 
 ## Kaip paleisti „Colab“ prototipą (1.2.2)
 
-1. Atidarykite `notebooks/smart_customer_service_gemini.ipynb` per
+1. Atidarykite `notebooks/1_1_2_smart_customer_service_gemini.ipynb` per
    [Google Colab](https://colab.research.google.com) (_File → Upload notebook_).
 2. Įsidėkite API raktą: [Google AI Studio](https://aistudio.google.com/apikey)
    → nukopijuokite raktą → „Colab“ kairysis skydelis 🔑 **Secrets** →
